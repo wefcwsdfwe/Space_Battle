@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "9fTpQgGMUh+N48A83Ve+Ms+K3nCiT4n3yB0f7bhGj7OHfuVjLWxCOG9zxIQSdTN6Nd2Bz0g67OBTm8Vgc4n5bA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle\\SpaceBattle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Максим\\.nuget\\packages\\hwdtech.core\\1.0.0\\hwdtech.core.1.0.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\hwdtech.ioc\\1.0.0\\hwdtech.ioc.1.0.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\hwdtech.ioc.scopebasediocimplementation\\1.0.0\\hwdtech.ioc.scopebasediocimplementation.1.0.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\hwdtech.ioc.singlethreadscope\\1.0.0\\hwdtech.ioc.singlethreadscope.1.0.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}

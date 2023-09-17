@@ -21,7 +21,7 @@ public class SoftStopCommand: ICommand{
             };
         };
     }
-    public void StartSS(){
+    public void Execute(){
         thread.UpdateBehaviour(() => {
             evHandlerSS();
         });

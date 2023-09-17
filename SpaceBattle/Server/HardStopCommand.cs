@@ -5,7 +5,7 @@ public class HardStopCommand: ICommand{
     public HardStopCommand(MyThread thread){
         this.thread = thread;
     }
-    public void StartHS(){
+    public void Execute(){
         thread.Stop();
     }
 }

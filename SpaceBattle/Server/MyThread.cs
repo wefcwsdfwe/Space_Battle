@@ -1,3 +1,5 @@
+using System.Reflection.Metadata;
+
 namespace SpaceBattle.Lib;
 
 public class MyThread
@@ -5,7 +7,6 @@ public class MyThread
     public IReceiver queue;
     private Thread thread;
     private Action behaviour;
- 
     private bool stop = false;
     public void Stop()
     {
@@ -16,8 +17,7 @@ public class MyThread
         thread.Start();
     }
     public MyThread(IReceiver queue)
-    {   
-        this.queue = queue;
+    {   this.queue = queue;
         this.behaviour = () => {
             var cmd = queue.Receive(); 
                 
@@ -26,7 +26,8 @@ public class MyThread
                 } catch (Exception e){
                     ICommand handleCommand = IoC.Resolve<ICommand>("ExceptionHandle", cmd, e);
                     handleCommand.Execute();
-                }  
+                }
+                
         };
         
         thread = new Thread(() =>
@@ -51,13 +52,5 @@ public class MyThread
 
     public IReceiver GetReceiver(){
         return queue;
-    }
-
-    public SoftStopCommand Execute() {
-        return StartSS();
-    }
-
-    public HardStopCommand Execute() {
-        return StartHS();
     }
 }
