@@ -1,3 +1,6 @@
+using Hwdtech.Ioc;
+using Hwdtech;
+
 namespace SpaceBattle.Lib;
 
 public class SoftStopCommand: ICommand{
@@ -10,7 +13,7 @@ public class SoftStopCommand: ICommand{
             if(thread.GetReceiver().IsEmpty()){
                 thread.Stop();
             } else {
-                var cmd = queue.Receive(); 
+                var cmd = thread.queue.Receive(); 
                 
                 try{
                     cmd.Execute();

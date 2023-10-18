@@ -7,12 +7,19 @@ using Hwdtech.Ioc;
 using Hwdtech;
 
 namespace SpaceBattle.Lib.Test;
-public class ServerThreadStartTest
+public class ServerThreadSoftStopTest
 {
-    
-   [Fact]
+    public ServerThreadSoftStopTest(){
+
+    }
+
+
+    [Fact]
     public void ThreadStartPositive()
-    {
+    {   
+        var thread = new MyThread(ReceiverAdapter q);
+        var ssc = new SoftStopCommand(thread);
+
         var emptyCommand = new Mock<ICommand>();
         emptyCommand.Setup(m = m.Execute()).Callback(()=>{});
         var ec = emptyCommand.Object;
@@ -25,25 +32,24 @@ public class ServerThreadStartTest
 
         var q = new  BlockingCollection<IReceiver>(100);  
 
-        // public HardStopCommand hsc;
         q.Add(ec);
         q.Add(ec);
         q.Add(ec);
-        q.Add(mreRC);
+        q.Add(ssc);
+        q.Add(ec);
+        q.Add(ec);
+        q.Add(ec);
+        
 
-
-        Assert.Equal(4, q.Count);
+        Assert.Equal(7, q.Count);
         Assert.False(q.isEmpty());
 
-        var thread = new MyThread(q);
            
         // Act
         thread.Start();
-        mre.WaitOne();
     
         // Post
-        
         Assert.True(q.IsEmpty());
-        thread.Stop(); 
-    }  
+        thread.Stop();
+    }   
 }

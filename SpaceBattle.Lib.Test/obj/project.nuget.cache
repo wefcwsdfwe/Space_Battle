@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5fOLWiRX3ZQN8LX/+RwYP6sv0QufoP3hs2OwCzrz01v38p66WDFkdtO3N0atPSRGt7YHgjdf67vLTetVcSelbw==",
+  "dgSpecHash": "gFNT/xGWK5DRbxI5glgpUEoCR79uAPKc+vbqvGm9rg37BtFGSaYoDwWMm21v/D5yqmU0c1zFEEJgVdSBqcpkEw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\SpaceBattle.Lib.Test.csproj",
+  "projectFilePath": "C:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\SpaceBattle.Lib.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Максим\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -104,9 +104,9 @@
     "C:\\Users\\Максим\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Максим\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Максим\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
   ],
   "logs": []
 }

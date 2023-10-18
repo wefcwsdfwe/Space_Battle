@@ -6439,11 +6439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\SpaceBattle.Lib.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\SpaceBattle.Lib.Test.csproj",
       "projectName": "SpaceBattle.Lib.Test",
-      "projectPath": "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\SpaceBattle.Lib.Test.csproj",
+      "projectPath": "C:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\SpaceBattle.Lib.Test.csproj",
       "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\obj\\",
+      "outputPath": "C:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle.Lib.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6458,8 +6458,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle\\SpaceBattle.csproj": {
-              "projectPath": "c:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle\\SpaceBattle.csproj"
+            "C:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle\\SpaceBattle.csproj": {
+              "projectPath": "C:\\Users\\Максим\\Desktop\\OOA_and_P\\SpaceBattle\\SpaceBattle.csproj"
             }
           }
         }
@@ -6535,15 +6535,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
+            "version": "[6.0.22, 6.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
+            "version": "[6.0.22, 6.0.22]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
+            "version": "[6.0.22, 6.0.22]"
           }
         ],
         "frameworkReferences": {
@@ -6551,7 +6551,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

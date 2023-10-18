@@ -19,3 +19,16 @@ public class Reciever : IReceiver
         return queue.Take();
     }
 }
+
+public class ReceiverAdapter(): IReceiver {
+    BlockingCollection<ICommand> q;
+    ReceiverAdapter (BlockingCollection<ICommand> q) {
+        this.q = q;
+    }
+    ICommand Receive() {
+        return q.Take();
+    }
+    bool IsEmpty() {
+        return thread.q.IsEmpty();       
+    }
+}

@@ -3,3 +3,10 @@ c:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\SpaceBattle
 c:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\SpaceBattle.AssemblyInfoInputs.cache
 c:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\SpaceBattle.AssemblyInfo.cs
 c:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\SpaceBattle.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\bin\Debug\net6.0\SpaceBattle.deps.json
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\bin\Debug\net6.0\SpaceBattle.dll
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\bin\Debug\net6.0\SpaceBattle.pdb
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\SpaceBattle.dll
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\refint\SpaceBattle.dll
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\SpaceBattle.pdb
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle\obj\Debug\net6.0\ref\SpaceBattle.dll

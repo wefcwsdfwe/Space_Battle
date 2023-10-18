@@ -1,0 +1,6 @@
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle.Lib.Test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle.Lib.Test\obj\Debug\net6.0\SpaceBattle.Lib.Test.csproj.AssemblyReference.cache
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle.Lib.Test\obj\Debug\net6.0\SpaceBattle.Lib.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle.Lib.Test\obj\Debug\net6.0\SpaceBattle.Lib.Test.AssemblyInfoInputs.cache
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle.Lib.Test\obj\Debug\net6.0\SpaceBattle.Lib.Test.AssemblyInfo.cs
+C:\Users\Максим\Desktop\OOA_and_P\SpaceBattle.Lib.Test\obj\Debug\net6.0\SpaceBattle.Lib.Test.csproj.CoreCompileInputs.cache

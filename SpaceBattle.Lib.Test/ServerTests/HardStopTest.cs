@@ -7,14 +7,22 @@ using Hwdtech.Ioc;
 using Hwdtech;
 
 namespace SpaceBattle.Lib.Test;
-public class ServerThreadStartTest
-{
-    
-   [Fact]
+public class ServerThreadHardStopTest
+{   
+    public ServerThreadHardStopTest() {
+        
+    }
+
+    [Fact]
     public void ThreadStartPositive()
     {
+        var activete = new ReceiverAdapter();
+        var q = new BlockingCollection<ICommand>(100); 
+        var thread = new MyThread(q);        
+        var hsc = new HardStopCommand(thread); 
+        
         var emptyCommand = new Mock<ICommand>();
-        emptyCommand.Setup(m = m.Execute()).Callback(()=>{});
+        emptyCommand.Setup(m => m.Execute()).Callback(()=>{});
         var ec = emptyCommand.Object;
 
         var mre = new ManualResetEvent(false);
@@ -23,27 +31,26 @@ public class ServerThreadStartTest
         mreResetCommand.Setup(m => m.Execute()).Callback(()=>(mre.Set()));
         var mrcRC = mreResetCommand.Object;
 
-        var q = new  BlockingCollection<IReceiver>(100);  
-
         // public HardStopCommand hsc;
         q.Add(ec);
         q.Add(ec);
         q.Add(ec);
-        q.Add(mreRC);
+        q.Add(hsc);
+        q.Add(ec);
+        q.Add(ec);
+        
 
 
-        Assert.Equal(4, q.Count);
-        Assert.False(q.isEmpty());
+        Assert.Equal(6, q.Count);
+        Assert.False(q.IsEmpty());
 
-        var thread = new MyThread(q);
-           
+        
         // Act
         thread.Start();
-        mre.WaitOne();
-    
+
         // Post
+        Assert.False(q.IsEmpty());
         
-        Assert.True(q.IsEmpty());
-        thread.Stop(); 
-    }  
+        thread.Stop();
+    }   
 }
